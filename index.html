@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML & CSS Fundamental Practice</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header id="main-header">
+      <h1>Belajar HTML & CSS</h1>
+      <p>Latihan semua elemen dasar dalam satu halaman.</p>
+    </header>
+
+    <!-- TEXT ELEMENTS -->
+    <section>
+      <h2>1. Text Elements</h2>
+      <p>Ini paragraf biasa.</p>
+      <p class="highlight">Ini paragraf dengan class "highlight".</p>
+    </section>
+
+    <!-- LINK & IMAGE -->
+    <section>
+      <h2>2. Link & Gambar</h2>
+      <a href="#" class="link-button">Klik Saya</a>
+      <br /><br />
+      <img
+        src="https://via.placeholder.com/150"
+        alt="example"
+        class="img-box"
+      />
+    </section>
+
+    <!-- LISTS -->
+    <section>
+      <h2>3. Lists (ul, li, ol)</h2>
+
+      <h3>Unordered List</h3>
+      <ul class="custom-list">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+      </ul>
+
+      <h3>Ordered List</h3>
+      <ol>
+        <li>Pemula</li>
+        <li>Menengah</li>
+        <li>Mahir</li>
+      </ol>
+    </section>
+
+    <!-- TABLE -->
+    <section>
+      <h2>4. Tabel</h2>
+
+      <table class="table">
+        <thead>
+          <tr>
+            <th>No</th>
+            <th>Nama</th>
+            <th>Role</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Budi</td>
+            <td>Frontend</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Sari</td>
+            <td>Backend</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- CARD -->
+    <section>
+      <h2>5. Card Component</h2>
+      <div class="card">
+        <h3 class="card-title">Ini Judul Card</h3>
+        <p class="card-content">Card sederhana menggunakan class dan CSS.</p>
+        <button class="btn">Klik</button>
+      </div>
+    </section>
+
+    <!-- FORM -->
+    <section>
+      <h2>6. Form Sederhana</h2>
+      <form>
+        <label>Nama:</label>
+        <input type="text" placeholder="Masukkan nama" />
+
+        <label>Email:</label>
+        <input type="email" placeholder="Masukkan email" />
+
+        <label>Password:</label>
+        <input type="password" placeholder="Masukkan password" />
+
+        <button class="btn submit-btn">Submit</button>
+      </form>
+    </section>
+  </body>
+</html>
