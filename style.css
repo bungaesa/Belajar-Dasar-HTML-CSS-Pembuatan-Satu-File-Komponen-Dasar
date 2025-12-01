@@ -17,21 +17,24 @@ p {
 
 /* ID SELECTOR */
 #main-header {
-  background: #f1f5f9;
+  background: #95b3d1;
   padding: 20px;
   margin-bottom: 20px;
   border-radius: 10px;
+  border-bottom: 3px solid #023570;
 }
 
 /* CLASS SELECTOR */
 .highlight {
-  background: #fff7cc;
+  background: #95b3d1;
   padding: 10px;
-  border-left: 4px solid #facc15;
+  border-left: 4px solid #023570;
+  border-radius: 0 10px 10px 0;
+  color: #fdfdfd;
 }
 
 .link-button {
-  background: #2563eb;
+  background: #023570;
   color: white;
   padding: 8px 12px;
   border-radius: 6px;
@@ -44,8 +47,14 @@ p {
 
 /* LIST */
 .custom-list li {
-  color: #1d4ed8;
+  color: #0d0d0e;
   font-weight: bold;
+  background: #95b3d1;
+  padding: 6px 10px;
+  margin: 5px 0;
+  border-left: 4px solid #023570;
+  border-radius: 4px;
+  list-style-type: square;
 }
 
 /* TABLE */
@@ -53,30 +62,38 @@ p {
   width: 100%;
   border-collapse: collapse;
   margin-top: 10px;
+  background: #95b3d1;
+  border-radius: 6px;
 }
 
 .table th {
-  background: #e2e8f0;
+  background: #023570;
   padding: 10px;
+  color: #ffffff;
+  border-left: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  border-radius: 6px;
 }
 
 .table td {
-  padding: 10px;
+  padding: 8px;
   border-bottom: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+  border-radius: 6px;
 }
 
 /* CARD */
 .card {
-  border: 1px solid #e5e7eb;
+  border: 2px solid #023570;
   padding: 20px;
   width: 250px;
   border-radius: 12px;
-  background: white;
+  background: #deeaf7;
 }
 
 .card-title {
   font-size: 20px;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 .card-content {
@@ -85,7 +102,7 @@ p {
 
 /* BUTTON */
 .btn {
-  background: #10b981;
+  background: #023570;
   color: white;
   border: none;
   padding: 8px 14px;
@@ -94,7 +111,7 @@ p {
 }
 
 .btn:hover {
-  background: #059669;
+  background: #95b3d1;
 }
 
 /* ATTRIBUTE SELECTOR */
@@ -104,7 +121,7 @@ input[type="password"] {
   width: 100%;
   padding: 8px;
   margin-bottom: 8px;
-  border: 1px solid #cbd5e1;
+  border: 1px dotted #95b3d1;
   border-radius: 6px;
 }
 
